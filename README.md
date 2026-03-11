@@ -78,4 +78,4 @@ on Forage — March 2026.
 
 **Abdelrahman Diaa** | Aspiring AI & GeoAI Engineer
 
-🔗 [Portfolio](https://abdodiaa.vercel.app) | 🔗 [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN_URL)
+🔗 [Portfolio](https://abdodiaa.vercel.app) | 🔗 [LinkedIn](https://www.linkedin.com/in/diaa-shousha/)
