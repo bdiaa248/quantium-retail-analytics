@@ -1,38 +1,84 @@
-# Quantium Retail Analytics Virtual Experience Program 📊
+# 🛒 Quantium Retail Analytics — Chips Category Review
+
+> **Advanced Data Analytics Job Simulation** | Forage × Quantium | March 2026
 
 ## 📌 Project Overview
-This repository contains my work for the Quantium Retail Analytics Virtual Experience Program on Forage. The project involves acting as a Data Analyst to provide strategic commercial recommendations to a Category Manager for a retail client, specifically focusing on the "Chips" category.
+An advanced retail analytics project simulating real-world 
+data science work at Quantium. The goal was to analyze 
+260K+ chip transactions and deliver C-level strategic 
+recommendations.
 
-## 🛠️ Tech Stack
-* **Language:** Python
-* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
-* **Concepts Applied:** Data Wrangling, Exploratory Data Analysis (EDA), Statistical A/B Testing, Pyramid Principle for Commercial Presentation.
+## 🎯 Business Questions Answered
+- Which customer segments drive the most revenue?
+- Did the new store layout trial significantly increase sales?
+- What commercial strategy should Quantium pursue next half-year?
 
-## 🚀 Project Tasks
+## 🔍 Key Findings
+| Finding | Detail |
+|---------|--------|
+| Top Revenue Segment | Older Families - Budget ($168K+) |
+| Highest Price Per Unit | Young Singles/Couples - Mainstream ($4.08) |
+| Trial Store 77 Uplift | +62% sales vs control store |
+| Recommendation | National rollout of new store layout |
 
-### Task 1: Data Preparation and Customer Analytics
-* **Objective:** Analyze transaction and customer purchasing behaviors to identify high-value customer segments.
-* **Actions:** * Cleaned and merged over 260K+ transaction records.
-  * Engineered new features (e.g., pack size, brand name).
-  * Identified that "Older Families (Budget)" are the primary volume drivers, while "Young Singles/Couples (Mainstream)" represent a high-margin premium segment.
+## 🛠️ Tools & Skills Used
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **Statistical A/B Testing** (Control store matching)
+- **Pyramid Principle** (Executive presentation)
+- **Data Wrangling** (260K+ raw transactions)
 
-### Task 2: Experimentation and Uplift Testing (A/B Testing)
-* **Objective:** Evaluate the impact of a new store layout introduced in Trial Stores (77, 86, 88).
-* **Actions:**
-  * Developed an algorithm to select highly correlated "Control Stores" based on historical sales and customer footfall.
-  * Calculated the statistical significance of the sales uplift during the trial period (Feb - April 2019).
-  * Concluded that Store 77 experienced a highly significant sales uplift of over 62% in April.
+## 📁 Repository Structure
+- `/notebooks` — Jupyter notebooks for Task 1 & Task 2
+- `/data` — Raw transaction & customer behaviour datasets
+- `/outputs` — Generated charts and visualizations
+- `/presentation` — Final PDF presentation
 
-### Task 3: Analytics and Commercial Application
-* **Objective:** Present the technical findings to non-technical stakeholders (C-level management).
-* **Actions:**
-  * Applied the **Pyramid Principle** to structure a compelling, data-driven presentation.
-  * Delivered actionable commercial recommendations, including a national rollout of the new store layout and targeted merchandising strategies for premium segments.
+## 📊 Results Preview
+![Category Overview](outputs/category_overview_chart.png)
 
-## 📂 Repository Structure
-* `Task_1_Data_Exploration/`: Contains the Jupyter Notebook for data wrangling and EDA.
-* `Task_2_Experimentation_and_Uplift_Testing/`: Contains the Jupyter Notebook focusing on Control Store selection and A/B testing analysis.
-* `Task_3_Strategic_Report/`: Contains the final Executive Presentation (PDF).
+## 🏆 Certificate
+Completed as part of the **Quantium Data Analytics 
+Job Simulation** on Forage — March 2026.
 
-## 🏆 Conclusion
-This simulation provided hands-on experience in bridging the gap between raw data manipulation and high-level strategic business decision-making.
+---
+**Abdelrahman Diaa** | [Portfolio](https://abdodiaa.vercel.app) 
+| [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+```
+
+---
+
+## الخطوة 4 — ملف requirements.txt
+```
+pandas==2.1.0
+numpy==1.24.0
+matplotlib==3.7.0
+seaborn==0.12.0
+openpyxl==3.1.0
+scipy==1.11.0
+jupyter==1.0.0
+```
+
+---
+
+## الخطوة 5 — رفع الملفات (بدون كود)
+
+لو مش عارف تستخدم Git في الـ Terminal، اعمل كده:
+
+1. افتح الـ repo على GitHub
+2. اضغط **"Add file"** → **"Upload files"**
+3. ارفع كل ملف في مكانه الصح
+
+---
+
+## الخطوة 6 — آخر لمسة تخلي الـ repo يبان احترافي ⭐
+
+اضغط على **"About"** (جنب الـ description) وحط:
+```
+🔍 Retail analytics project: customer segmentation + 
+A/B testing on 260K+ transactions | Python | Quantium × Forage
+```
+
+**Topics** (keywords):
+```
+python, data-analytics, retail-analytics, ab-testing, 
+pandas, quantium, forage, data-science
